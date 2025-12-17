@@ -1,0 +1,58 @@
+# ======================
+# Data (large files)
+# ======================
+data/
+**/data/
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+
+# Images / binaries
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+
+# ======================
+# Model artifacts
+# ======================
+checkpoints/
+**/checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Logs
+logs/
+**/logs/
+*.log
+
+# ======================
+# Python cache / env
+# ======================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.conda/
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Lightning / training folders (if any)
+lightning_logs/
+**/lightning_logs/
+.wandb/
+runs/
